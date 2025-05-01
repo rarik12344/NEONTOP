@@ -1,0 +1,25 @@
+{
+  "accountAssociation": {
+    "header": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9",
+    "payload": "eyJkb21haW4iOiJsb3R0ZXJ5bmVvbi52ZXJjZWwuYXBwIn0",
+    "signature": "SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Neon Lottery",
+    "homeUrl": "https://lotteryneon.vercel.app/",
+    "iconUrl": "https://i.ibb.co/NdV9qyF/NEONLOTTERY.jpg",
+    "imageUrl": "https://i.ibb.co/HfcPqDfC/ogneon.jpg",
+    "buttonTitle": "🎫 Buy ticket",
+    "splashImageUrl": "https://i.ibb.co/hJdsnrjV/splashscreen.jpg",
+    "splashBackgroundColor": "#0f0f1a"
+  },
+  "triggers": [
+    {
+      "type": "cast",
+      "id": "buy-ticket",
+      "url": "https://lotteryneon.vercel.app/api/frame",
+      "name": "Buy Lottery Ticket"
+    }
+  ]
+}
